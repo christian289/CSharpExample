@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformTabPageDrawingTextEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinformTimerTickTest", "WinformTimerTickTest\WinformTimerTickTest.csproj", "{D08AF3E0-122C-46B6-93E1-F20EE92B7373}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsFormsGenericHostExample", "WinFormGenericHostExample\WindowsFormsGenericHostExample.csproj", "{60D44439-FE77-4CAB-8D1D-FDF627B7C6F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D08AF3E0-122C-46B6-93E1-F20EE92B7373}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08AF3E0-122C-46B6-93E1-F20EE92B7373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08AF3E0-122C-46B6-93E1-F20EE92B7373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60D44439-FE77-4CAB-8D1D-FDF627B7C6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60D44439-FE77-4CAB-8D1D-FDF627B7C6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60D44439-FE77-4CAB-8D1D-FDF627B7C6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60D44439-FE77-4CAB-8D1D-FDF627B7C6F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
