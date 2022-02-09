@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuartzDotnetAndGenericHostE
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinformUIThreadIsThreadPoolThreadTest", "WinformUIThreadIsThreadPoolThreadTest\WinformUIThreadIsThreadPoolThreadTest.csproj", "{A0223810-5393-4963-AB48-4C1CDADD2CE0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinformShowDialogTimerStopExample", "WinformShowDialogTimerStopTest\WinformShowDialogTimerStopExample.csproj", "{F45631A7-540C-4442-A329-42D1EA674FA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinformShowDialogTimerStopExample", "WinformShowDialogTimerStopExample\WinformShowDialogTimerStopExample.csproj", "{EAED7706-3428-4DF1-AF37-397CFA2D8F9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,14 +93,14 @@ Global
 		{A0223810-5393-4963-AB48-4C1CDADD2CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A0223810-5393-4963-AB48-4C1CDADD2CE0}.Release|x64.ActiveCfg = Release|Any CPU
 		{A0223810-5393-4963-AB48-4C1CDADD2CE0}.Release|x64.Build.0 = Release|Any CPU
-		{F45631A7-540C-4442-A329-42D1EA674FA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F45631A7-540C-4442-A329-42D1EA674FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F45631A7-540C-4442-A329-42D1EA674FA8}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{F45631A7-540C-4442-A329-42D1EA674FA8}.Debug|x64.Build.0 = Debug|Any CPU
-		{F45631A7-540C-4442-A329-42D1EA674FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F45631A7-540C-4442-A329-42D1EA674FA8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F45631A7-540C-4442-A329-42D1EA674FA8}.Release|x64.ActiveCfg = Release|Any CPU
-		{F45631A7-540C-4442-A329-42D1EA674FA8}.Release|x64.Build.0 = Release|Any CPU
+		{EAED7706-3428-4DF1-AF37-397CFA2D8F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAED7706-3428-4DF1-AF37-397CFA2D8F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAED7706-3428-4DF1-AF37-397CFA2D8F9B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EAED7706-3428-4DF1-AF37-397CFA2D8F9B}.Debug|x64.Build.0 = Debug|Any CPU
+		{EAED7706-3428-4DF1-AF37-397CFA2D8F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAED7706-3428-4DF1-AF37-397CFA2D8F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAED7706-3428-4DF1-AF37-397CFA2D8F9B}.Release|x64.ActiveCfg = Release|Any CPU
+		{EAED7706-3428-4DF1-AF37-397CFA2D8F9B}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
