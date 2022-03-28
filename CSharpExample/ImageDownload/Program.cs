@@ -9,7 +9,7 @@ using System.Net.Http;
 using SkiaSharp;
 using System.Net.Sockets;
 
-namespace ImageDownload
+namespace ImageDownloadExample
 {
     class Program
     {

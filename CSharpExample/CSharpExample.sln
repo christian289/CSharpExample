@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADODotNetBulkInsert", "ADOD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadEventWaitHandleTest", "ThreadEventWaitHandleTest\ThreadEventWaitHandleTest.csproj", "{FA31AF45-FD6F-4D1E-A873-B5569985F405}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDownload", "ImageDownload\ImageDownload.csproj", "{C5E72798-ED1E-4302-A614-DB0727A421B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageDownloadExample", "ImageDownload\ImageDownloadExample.csproj", "{C5E72798-ED1E-4302-A614-DB0727A421B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisposePatternExample", "DisposePatternExample\DisposePatternExample.csproj", "{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,14 @@ Global
 		{C5E72798-ED1E-4302-A614-DB0727A421B7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C5E72798-ED1E-4302-A614-DB0727A421B7}.Release|x64.ActiveCfg = Release|Any CPU
 		{C5E72798-ED1E-4302-A614-DB0727A421B7}.Release|x64.Build.0 = Release|Any CPU
+		{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}.Debug|x64.Build.0 = Debug|Any CPU
+		{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}.Release|x64.ActiveCfg = Release|Any CPU
+		{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
