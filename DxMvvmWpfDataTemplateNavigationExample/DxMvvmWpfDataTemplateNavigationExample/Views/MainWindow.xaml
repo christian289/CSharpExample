@@ -1,0 +1,49 @@
+﻿<Window x:Class="DxMvvmWpfDataTemplateNavigationExample.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DxMvvmWpfDataTemplateNavigationExample"
+        xmlns:views="clr-namespace:DxMvvmWpfDataTemplateNavigationExample.Views"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        DataContext="{Binding Source={StaticResource ViewModelLocator}, Path=MainWindowViewModel}">
+    <Window.Resources>
+        <DataTemplate x:Key="SubView1Template">
+            <views:SubView1/>
+        </DataTemplate>
+        <DataTemplate x:Key="SubView2Template">
+            <views:SubView2/>
+        </DataTemplate>
+        <DataTemplate x:Key="SubView3Template">
+            <views:SubView3/>
+        </DataTemplate>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" 
+                    Orientation="Horizontal">
+            <Button x:Name="BtnSubView1"
+                    Command="{Binding NavigateCommand}"
+                    CommandParameter="SubView1">
+                <TextBlock Text="Go to SubView1"/>
+            </Button>
+            <Button x:Name="BtnSubView2"
+                    Command="{Binding NavigateCommand}"
+                    CommandParameter="SubView2">
+                <TextBlock Text="Go to SubView2"/>
+            </Button>
+            <Button x:Name="BtnSubView3"
+                    Command="{Binding NavigateCommand}"
+                    CommandParameter="SubView3">
+                <TextBlock Text="Go to SubView3"/>
+            </Button>
+        </StackPanel>
+        <ContentControl Grid.Row="1"
+                        ContentTemplateSelector="{StaticResource NavigationDataTemplateSelector}"
+                        Content="{Binding ViewName}"/>
+    </Grid>
+</Window>

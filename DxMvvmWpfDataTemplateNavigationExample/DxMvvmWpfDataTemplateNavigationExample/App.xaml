@@ -1,0 +1,14 @@
+﻿<Application x:Class="DxMvvmWpfDataTemplateNavigationExample.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:DxMvvmWpfDataTemplateNavigationExample"
+             xmlns:vm="clr-namespace:DxMvvmWpfDataTemplateNavigationExample.ViewModels"
+             xmlns:selector="clr-namespace:DxMvvmWpfDataTemplateNavigationExample.DataTemplateSelectors"
+             StartupUri="Views/MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <vm:ViewModelLocator x:Key="ViewModelLocator"/>
+            <selector:NavigationDataTemplateSelector x:Key="NavigationDataTemplateSelector" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
