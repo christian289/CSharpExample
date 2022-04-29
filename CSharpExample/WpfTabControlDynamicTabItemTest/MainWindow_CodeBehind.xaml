@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfTabControlDynamicTabItemTest.MainWindow_CodeBehind"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTabControlDynamicTabItemTest"
+        mc:Ignorable="d"
+        Title="MainWindow_CodeBehind" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.05*"/>
+            <RowDefinition Height="0.95*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnCreate"
+                    Grid.Column="0"
+                    Click="btnCreate_Click"
+                    Content="탭 페이지 생성"/>
+            <Button x:Name="btnRemove"
+                    Grid.Column="1"
+                    Click="btnRemove_Click"
+                    Content="탭 페이지 삭제"/>
+        </Grid>
+        <TabControl x:Name="tbctlTest"
+                    Grid.Row="1"/>
+    </Grid>
+</Window>

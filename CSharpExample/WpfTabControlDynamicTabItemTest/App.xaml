@@ -1,0 +1,14 @@
+﻿<Application x:Class="WpfTabControlDynamicTabItemTest.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfTabControlDynamicTabItemTest"
+             StartupUri="MainWindow_CodeBehind.xaml">
+<!--<Application x:Class="WpfTabControlDynamicTabItemTest.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfTabControlDynamicTabItemTest"
+             StartupUri="MainWindow_XAML.xaml">-->
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
