@@ -89,4 +89,6 @@ XAML과 바인딩 형태라면 Template에 null값을 줄 수 없기 때문에 �
 
 ## 해결방법
 
-?????? 아시는 분 알려주세요...
+아래 링크에서 대부분 버그같다고 제보를 주셨고, 버그인 것으로.
+
+https://forum.dotnetdev.kr/t/wpf-tabcontrol-bug/3478/2?u=vincent
