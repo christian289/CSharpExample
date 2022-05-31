@@ -29,7 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageDownloadExample", "Ima
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DisposePatternExample", "DisposePatternExample\DisposePatternExample.csproj", "{BD1A85E3-83C0-43CB-9E4B-DCC2ED616154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfTabControlDynamicTabItemTest", "WpfTabControlDynamicTabItemTest\WpfTabControlDynamicTabItemTest.csproj", "{1B3B434D-68B6-4E4A-8CF2-F15C2EDB3906}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfTabControlDynamicTabItemTest", "WpfTabControlDynamicTabItemTest\WpfTabControlDynamicTabItemTest.csproj", "{1B3B434D-68B6-4E4A-8CF2-F15C2EDB3906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvalonDockTest", "AvalonDockTest\AvalonDockTest.csproj", "{C9F5F0DF-523B-46CE-9200-E7777B101F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAddScopedVsAddTransientTest", "WpfAddScopedVsAddTransientTest\WpfAddScopedVsAddTransientTest.csproj", "{02BE6233-FEFA-43D0-A52C-A9354E4EBC1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -151,6 +155,22 @@ Global
 		{1B3B434D-68B6-4E4A-8CF2-F15C2EDB3906}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1B3B434D-68B6-4E4A-8CF2-F15C2EDB3906}.Release|x64.ActiveCfg = Release|Any CPU
 		{1B3B434D-68B6-4E4A-8CF2-F15C2EDB3906}.Release|x64.Build.0 = Release|Any CPU
+		{C9F5F0DF-523B-46CE-9200-E7777B101F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F5F0DF-523B-46CE-9200-E7777B101F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F5F0DF-523B-46CE-9200-E7777B101F1A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C9F5F0DF-523B-46CE-9200-E7777B101F1A}.Debug|x64.Build.0 = Debug|Any CPU
+		{C9F5F0DF-523B-46CE-9200-E7777B101F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F5F0DF-523B-46CE-9200-E7777B101F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F5F0DF-523B-46CE-9200-E7777B101F1A}.Release|x64.ActiveCfg = Release|Any CPU
+		{C9F5F0DF-523B-46CE-9200-E7777B101F1A}.Release|x64.Build.0 = Release|Any CPU
+		{02BE6233-FEFA-43D0-A52C-A9354E4EBC1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02BE6233-FEFA-43D0-A52C-A9354E4EBC1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02BE6233-FEFA-43D0-A52C-A9354E4EBC1D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{02BE6233-FEFA-43D0-A52C-A9354E4EBC1D}.Debug|x64.Build.0 = Debug|Any CPU
+		{02BE6233-FEFA-43D0-A52C-A9354E4EBC1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02BE6233-FEFA-43D0-A52C-A9354E4EBC1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02BE6233-FEFA-43D0-A52C-A9354E4EBC1D}.Release|x64.ActiveCfg = Release|Any CPU
+		{02BE6233-FEFA-43D0-A52C-A9354E4EBC1D}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

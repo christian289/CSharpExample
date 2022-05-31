@@ -1,0 +1,417 @@
+﻿<Window x:Class="AvalonDockTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:AvalonDockTest"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="MainWindow"
+        Width="800"
+        Height="450"
+        mc:Ignorable="d">
+    <Grid>
+        <!--<TabControl>
+            <TabItem Header="1번">
+                <DockingManager x:Name="dockManager1"
+                                AllowMixedOrientation="True"
+                                AutoWindowSizeWhenOpened="True"
+                                IsVirtualizingAnchorable="True"
+                                IsVirtualizingDocument="True">
+                    <DockingManager.DocumentHeaderTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="asdfasdf" TextTrimming="CharacterEllipsis" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DockingManager.DocumentHeaderTemplate>
+
+                    <LayoutRoot>
+                        <LayoutPanel Orientation="Horizontal">
+        -->
+        <!--<LayoutAnchorablePane DockHeight="50">
+                                <LayoutAnchorable />
+                            </LayoutAnchorablePane>-->
+        <!--
+
+                            <LayoutDocumentPaneGroup>
+                                <LayoutDocumentPane>
+                                    <LayoutDocument Title="Document 1" ContentId="document1">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvzxczxcvzxcvv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 2" ContentId="document2">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvzaerfertxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 3" ContentId="document3">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvyukyuizxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 4" ContentId="document4">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                </LayoutDocumentPane>
+                            </LayoutDocumentPaneGroup>
+                        </LayoutPanel>
+
+                    </LayoutRoot>
+                </DockingManager>
+            </TabItem>
+            <TabItem Header="2번">
+                <DockingManager x:Name="dockManager2"
+                                AllowMixedOrientation="True"
+                                AutoWindowSizeWhenOpened="True"
+                                IsVirtualizingAnchorable="True"
+                                IsVirtualizingDocument="True">
+                    <DockingManager.DocumentHeaderTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="asdfasdf" TextTrimming="CharacterEllipsis" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DockingManager.DocumentHeaderTemplate>
+
+                    <LayoutRoot>
+                        <LayoutPanel Orientation="Horizontal">
+        -->
+        <!--<LayoutAnchorablePane DockHeight="50">
+                                <LayoutAnchorable />
+                            </LayoutAnchorablePane>-->
+        <!--
+
+                            <LayoutDocumentPaneGroup>
+                                <LayoutDocumentPane>
+                                    <LayoutDocument Title="Document 1" ContentId="document1">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvzxczxcvzxcvv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 2" ContentId="document2">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvzaerfertxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 3" ContentId="document3">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvyukyuizxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 4" ContentId="document4">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                </LayoutDocumentPane>
+                            </LayoutDocumentPaneGroup>
+                        </LayoutPanel>
+
+                    </LayoutRoot>
+                </DockingManager>
+            </TabItem>
+            <TabItem Header="3번">
+                <DockingManager x:Name="dockManager3"
+                                AllowMixedOrientation="True"
+                                AutoWindowSizeWhenOpened="True"
+                                IsVirtualizingAnchorable="True"
+                                IsVirtualizingDocument="True">
+                    <DockingManager.DocumentHeaderTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="asdfasdf" TextTrimming="CharacterEllipsis" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DockingManager.DocumentHeaderTemplate>
+
+                    <LayoutRoot>
+                        <LayoutPanel Orientation="Horizontal">
+        -->
+        <!--<LayoutAnchorablePane DockHeight="50">
+                                <LayoutAnchorable />
+                            </LayoutAnchorablePane>-->
+        <!--
+
+                            <LayoutDocumentPaneGroup>
+                                <LayoutDocumentPane>
+                                    <LayoutDocument Title="Document 1" ContentId="document1">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvzxczxcvzxcvv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 2" ContentId="document2">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvzaerfertxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 3" ContentId="document3">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvyukyuizxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 4" ContentId="document4">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                </LayoutDocumentPane>
+                            </LayoutDocumentPaneGroup>
+                        </LayoutPanel>
+
+                    </LayoutRoot>
+                </DockingManager>
+            </TabItem>
+            <TabItem Header="4번">
+                <DockingManager x:Name="dockManager4"
+                                AllowMixedOrientation="True"
+                                AutoWindowSizeWhenOpened="True"
+                                IsVirtualizingAnchorable="True"
+                                IsVirtualizingDocument="True">
+                    <DockingManager.DocumentHeaderTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="asdfasdf" TextTrimming="CharacterEllipsis" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </DockingManager.DocumentHeaderTemplate>
+
+                    <LayoutRoot>
+                        <LayoutPanel Orientation="Horizontal">
+        -->
+        <!--<LayoutAnchorablePane DockHeight="50">
+                                <LayoutAnchorable />
+                            </LayoutAnchorablePane>-->
+        <!--
+
+                            <LayoutDocumentPaneGroup>
+                                <LayoutDocumentPane>
+                                    <LayoutDocument Title="Document 1" ContentId="document1">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvzxczxcvzxcvv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 2" ContentId="document2">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvzaerfertxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 3" ContentId="document3">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcvyukyuizxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                    <LayoutDocument Title="Document 4" ContentId="document4">
+                                        <Grid>
+                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                        </Grid>
+                                    </LayoutDocument>
+                                </LayoutDocumentPane>
+                            </LayoutDocumentPaneGroup>
+                        </LayoutPanel>
+
+                    </LayoutRoot>
+                </DockingManager>
+            </TabItem>
+        </TabControl>-->
+
+
+
+        <DockingManager x:Name="dockManager1"
+                        AllowMixedOrientation="True"
+                        AutoWindowSizeWhenOpened="True"
+                        IsVirtualizingAnchorable="True"
+                        IsVirtualizingDocument="True">
+            <DockingManager.DocumentHeaderTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="asdfasdf" TextTrimming="CharacterEllipsis" />
+                    </StackPanel>
+                </DataTemplate>
+            </DockingManager.DocumentHeaderTemplate>
+
+            <LayoutRoot>
+                <LayoutPanel Orientation="Horizontal">
+                    <LayoutDocumentPaneGroup>
+                        <LayoutDocumentPane>
+                            <LayoutDocument Title="Document 1" ContentId="document1">
+                                <DockingManager x:Name="subDockManager1"
+                                                AllowMixedOrientation="True"
+                                                AutoWindowSizeWhenOpened="True"
+                                                IsVirtualizingAnchorable="True"
+                                                IsVirtualizingDocument="True">
+                                    <DockingManager.DocumentHeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="asdfasdf" TextTrimming="CharacterEllipsis" />
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DockingManager.DocumentHeaderTemplate>
+                                    <LayoutRoot>
+                                        <LayoutPanel Orientation="Horizontal">
+                                            <LayoutDocumentPaneGroup>
+                                                <LayoutDocumentPane>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                </LayoutDocumentPane>
+                                            </LayoutDocumentPaneGroup>
+                                        </LayoutPanel>
+                                    </LayoutRoot>
+                                </DockingManager>
+                            </LayoutDocument>
+                            <LayoutDocument Title="Document 2" ContentId="document2">
+                                <DockingManager x:Name="subDockManager2"
+                                                AllowMixedOrientation="True"
+                                                AutoWindowSizeWhenOpened="True"
+                                                IsVirtualizingAnchorable="True"
+                                                IsVirtualizingDocument="True">
+                                    <DockingManager.DocumentHeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="asdfasdf" TextTrimming="CharacterEllipsis" />
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DockingManager.DocumentHeaderTemplate>
+                                    <LayoutRoot>
+                                        <LayoutPanel Orientation="Horizontal">
+                                            <LayoutDocumentPaneGroup>
+                                                <LayoutDocumentPane>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                </LayoutDocumentPane>
+                                            </LayoutDocumentPaneGroup>
+                                        </LayoutPanel>
+                                    </LayoutRoot>
+                                </DockingManager>
+                            </LayoutDocument>
+                            <LayoutDocument Title="Document 3" ContentId="document3">
+                                <DockingManager x:Name="subDockManager3"
+                                                AllowMixedOrientation="True"
+                                                AutoWindowSizeWhenOpened="True"
+                                                IsVirtualizingAnchorable="True"
+                                                IsVirtualizingDocument="True">
+                                    <DockingManager.DocumentHeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="asdfasdf" TextTrimming="CharacterEllipsis" />
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DockingManager.DocumentHeaderTemplate>
+                                    <LayoutRoot>
+                                        <LayoutPanel Orientation="Horizontal">
+                                            <LayoutDocumentPaneGroup>
+                                                <LayoutDocumentPane>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                </LayoutDocumentPane>
+                                            </LayoutDocumentPaneGroup>
+                                        </LayoutPanel>
+                                    </LayoutRoot>
+                                </DockingManager>
+                            </LayoutDocument>
+                            <LayoutDocument Title="Document 4" ContentId="document4">
+                                <DockingManager x:Name="subDockManager4"
+                                                AllowMixedOrientation="True"
+                                                AutoWindowSizeWhenOpened="True"
+                                                IsVirtualizingAnchorable="True"
+                                                IsVirtualizingDocument="True">
+                                    <DockingManager.DocumentHeaderTemplate>
+                                        <DataTemplate>
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="asdfasdf" TextTrimming="CharacterEllipsis" />
+                                            </StackPanel>
+                                        </DataTemplate>
+                                    </DockingManager.DocumentHeaderTemplate>
+                                    <LayoutRoot>
+                                        <LayoutPanel Orientation="Horizontal">
+                                            <LayoutDocumentPaneGroup>
+                                                <LayoutDocumentPane>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                    <LayoutDocument>
+                                                        <Grid>
+                                                            <TextBox Text="asdfzxcweqrewrvzxcv" />
+                                                        </Grid>
+                                                    </LayoutDocument>
+                                                </LayoutDocumentPane>
+                                            </LayoutDocumentPaneGroup>
+                                        </LayoutPanel>
+                                    </LayoutRoot>
+                                </DockingManager>
+                            </LayoutDocument>
+                        </LayoutDocumentPane>
+                    </LayoutDocumentPaneGroup>
+                </LayoutPanel>
+
+            </LayoutRoot>
+        </DockingManager>
+    </Grid>
+</Window>
