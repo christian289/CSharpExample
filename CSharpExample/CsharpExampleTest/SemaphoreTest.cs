@@ -49,5 +49,39 @@ namespace CsharpExampleTest
             await Task.WhenAll(tasks);
             output.WriteLine("Complete!");
         }
+
+        [Fact]
+        public async Task Test2()
+        {
+            List<int> sources = new(size);
+
+            for (int i = 0; i < size; i++)
+            {
+                sources.Add(i);
+            }
+
+            SemaphoreSlim semaphoreSlim = new(2);
+            List<Task> tasks = new(sources.Count);
+
+            foreach (int item in sources)
+            {
+                await semaphoreSlim.WaitAsync();
+
+                tasks.Add(Task.Run(() =>
+                {
+                    try
+                    {
+                        output.WriteLine(item.ToString());
+                    }
+                    finally
+                    {
+                        semaphoreSlim.Release();
+                    }
+                }));
+            }
+
+            await Task.WhenAll(tasks);
+            output.WriteLine("Complete!");
+        }
     }
 }
