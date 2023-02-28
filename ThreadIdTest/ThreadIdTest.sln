@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsThreadIdTest", "WindowsFormsThreadIdTest\WindowsFormsThreadIdTest.csproj", "{DDC364A2-9E94-4638-B5CB-A7A839B68268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleThreadIdTest", "ConsoleThreadIdTest\ConsoleThreadIdTest.csproj", "{94529D8E-3A80-4D70-AB3A-B9E8EACCD103}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDC364A2-9E94-4638-B5CB-A7A839B68268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC364A2-9E94-4638-B5CB-A7A839B68268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC364A2-9E94-4638-B5CB-A7A839B68268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC364A2-9E94-4638-B5CB-A7A839B68268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94529D8E-3A80-4D70-AB3A-B9E8EACCD103}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94529D8E-3A80-4D70-AB3A-B9E8EACCD103}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94529D8E-3A80-4D70-AB3A-B9E8EACCD103}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94529D8E-3A80-4D70-AB3A-B9E8EACCD103}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3C2192D-47DE-405A-96E5-0B5FD37ED3E7}
+	EndGlobalSection
+EndGlobal
